@@ -47,41 +47,34 @@ export const skills = [
   { icon: 'fas fa-cloud', name: 'AWS & Azure', level: 8 },
 ];
 
-export const contactColumns = [
-  [
-    { icon: 'fas fa-map-marker-alt', content: 'City, Country' },
-    { icon: 'fas fa-passport', content: 'Nationality' },
-  ],
-  [
-    { icon: 'fas fa-phone', content: '+000 000 000 000' },
-    {
-      icon: 'fas fa-envelope',
-      content: <a href="mailto:janedoe@email.com">janedoe@email.com</a>,
-    },
-  ],
-  [
-    { icon: 'fas fa-birthday-cake', content: '1 January 1900' },
-    { icon: 'fas fa-user-alt', content: 'Single' },
-  ],
-  [
-    {
-      icon: 'fab fa-linkedin',
-      content: (
-        <a href="https://linkedin.com/in/janedoe" target="_blank">
-          LinkedIn
-        </a>
-      ),
-    },
-    {
-      icon: 'fab fa-github',
-      content: (
-        <a href="https://github.com/janedoe" target="_blank">
-          GitHub
-        </a>
-      ),
-    },
-  ],
-];
+export const icons: Record<string, string> = {
+  html: 'fab fa-html5',
+  css: 'fab fa-css3-alt',
+  javascript: 'fab fa-js',
+  react: 'fab fa-react',
+  vue: 'fab fa-vuejs',
+  angular: 'fab fa-angular',
+  git: 'fab fa-git-alt',
+  node: 'fab fa-node-js',
+  npm: 'fab fa-npm',
+  docker: 'fab fa-docker',
+  database: 'fas fa-database',
+  cloud: 'fas fa-cloud',
+  location: 'fas fa-map-marker-alt',
+  nationality: 'fas fa-passport',
+  phone: 'fas fa-phone',
+  email: 'fas fa-envelope',
+  birthday: 'fas fa-birthday-cake',
+  maritalStatus: 'fas fa-user-alt',
+  linkedin: 'fab fa-linkedin',
+  github: 'fab fa-github',
+  phd: 'fas fa-book',
+  master: 'fas fa-scroll',
+  bachelor: 'fas fa-graduation-cap',
+  company: 'fas fa-building',
+  developer: 'fas fa-laptop-code',
+  notFound: 'fas fa-question-circle',
+};
 
 export const certifications = [
   {
