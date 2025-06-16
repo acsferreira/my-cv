@@ -1,0 +1,174 @@
+@import './variables.less';
+
+body {
+  height: 297mm;
+  width: 210mm;
+}
+.page {
+  height: 277mm;
+  width: 208mm;
+  font-family: 'Roboto', sans-serif;
+  color: @text-color;
+  background-color: @background-color;
+  text-align: justify;
+  font-size: 15px;
+}
+h1,
+h2,
+.fab,
+.fas {
+  color: @primary-color;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  text-align: center;
+}
+.contact {
+  margin-bottom: 15px;
+}
+.section {
+  margin-bottom: 10px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.contact-info div {
+  font-size: 18px;
+}
+.section-title {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+a {
+  text-decoration: none;
+  color: @secondary-color;
+}
+.icons i {
+  margin-right: 8px;
+  color: @secondary-color;
+}
+.progress-bar {
+  background-color: @progress-bar-bg;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  width: 50%;
+}
+.progress-level-bar {
+  height: 100%;
+  background-color: @progress-bar-fill;
+}
+.language-level {
+  font-size: 1em;
+}
+
+.full-name {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 8px;
+}
+
+.flag {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+  height: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .section {
+    width: 48%;
+  }
+
+  .skill-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .skill-name {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    img,
+    i {
+      margin-right: 8px;
+      width: 18px;
+    }
+
+    .fab {
+      font-size: 20px;
+    }
+  }
+}
+
+.edu-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.education-entry {
+  display: flex;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.job-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  .period {
+    flex: 1;
+    text-align: right;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 0.7em;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(45deg, @list-gradient-start, @list-gradient-end);
+  border-radius: 50%;
+  box-shadow: 0 0 6px @list-shadow1, 0 0 8px @list-shadow2;
+}
+.job-desc {
+  margin: 0;
+}
