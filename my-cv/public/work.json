@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fas fa-building",
+    "title": "Frontend Developer",
+    "company": "Tech Solutions Inc.",
+    "companyUrl": "https://techsolutions.example.com/",
+    "location": "Remote",
+    "from": "March 2022",
+    "to": "",
+    "description": "Developed and maintained scalable web applications using React and TypeScript. Collaborated with designers and backend developers to deliver user-friendly features. Implemented unit and integration tests to ensure code quality and reliability."
+  },
+  {
+    "icon": "fas fa-laptop-code",
+    "title": "Web Developer",
+    "company": "Creative Web Studio",
+    "companyUrl": "https://creativeweb.example.com/",
+    "location": "City, Country",
+    "from": "January 2020",
+    "to": "February 2022",
+    "description": "Built responsive websites for clients in various industries using HTML, CSS, JavaScript, and Vue.js. Optimized site performance and accessibility. Worked closely with clients to gather requirements and deliver custom solutions."
+  }
+]

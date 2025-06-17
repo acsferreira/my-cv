@@ -1,0 +1,138 @@
+[
+  {
+    "type": "technology",
+    "icon": "fab fa-html5",
+    "name": "HTML5",
+    "level": 94,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-css3-alt",
+    "name": "CSS3",
+    "level": 88,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-js",
+    "name": "JavaScript (ES6+)",
+    "level": 80,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-react",
+    "name": "React.js",
+    "level": 72,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-vuejs",
+    "name": "Vue.js",
+    "level": 64,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-angular",
+    "name": "Angular",
+    "level": 56,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-git-alt",
+    "name": "Git",
+    "level": 48,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-node-js",
+    "name": "Node.js",
+    "level": 40,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-npm",
+    "name": "NPM",
+    "level": 32,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fab fa-docker",
+    "name": "Docker",
+    "level": 24,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fas fa-database",
+    "name": "SQL & NoSQL",
+    "level": 16,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "technology",
+    "icon": "fas fa-cloud",
+    "name": "AWS & Azure",
+    "level": 8,
+    "imgSrc": "",
+    "title": ""
+  },
+  {
+    "type": "language",
+    "imgSrc": "https://flagcdn.com/w40/gb.png",
+    "title": "English flag",
+    "name": "English",
+    "level": "C2",
+    "icon": ""
+  },
+  {
+    "type": "language",
+    "imgSrc": "https://flagcdn.com/w40/pt.png",
+    "title": "Portuguese flag",
+    "name": "Portuguese",
+    "level": "C1",
+    "icon": ""
+  },
+  {
+    "type": "language",
+    "imgSrc": "https://flagcdn.com/w40/es.png",
+    "title": "Spanish flag",
+    "name": "Spanish",
+    "level": "B2",
+    "icon": ""
+  },
+  {
+    "type": "language",
+    "imgSrc": "https://flagcdn.com/w40/fr.png",
+    "title": "French flag",
+    "name": "French",
+    "level": "B1",
+    "icon": ""
+  },
+  {
+    "type": "language",
+    "imgSrc": "https://flagcdn.com/w40/de.png",
+    "title": "German flag",
+    "name": "German",
+    "level": "A2",
+    "icon": ""
+  }
+]

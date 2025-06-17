@@ -1,0 +1,65 @@
+[
+  {
+    "type": "degree",
+    "icon": "fas fa-book",
+    "title": "Ph.D. – Computer Science",
+    "institution": "Tech University",
+    "location": "Country",
+    "from": "2018",
+    "to": "2021"
+  },
+  {
+    "type": "degree",
+    "icon": "fas fa-scroll",
+    "title": "Master's Degree – Software Engineering",
+    "institution": "Engineering Institute",
+    "location": "Country",
+    "from": "2015",
+    "to": "2017"
+  },
+  {
+    "type": "degree",
+    "icon": "fas fa-graduation-cap",
+    "title": "Bachelor's Degree - Information Systems",
+    "institution": "National University",
+    "location": "Country",
+    "from": "2010",
+    "to": "2014"
+  },
+  {
+    "type": "certification",
+    "title": "Frontend Development Certificate",
+    "institution": "Online University",
+    "location": "Online",
+    "from": "2022",
+    "icon": "",
+    "to": ""
+  },
+  {
+    "type": "certification",
+    "title": "React Professional Certificate",
+    "institution": "Tech Academy",
+    "location": "Online",
+    "from": "2021",
+    "icon": "",
+    "to": ""
+  },
+  {
+    "type": "certification",
+    "title": "Node.js Bootcamp",
+    "institution": "Code School",
+    "location": "Online",
+    "from": "2021",
+    "icon": "",
+    "to": ""
+  },
+  {
+    "type": "certification",
+    "title": "DevOps Fundamentals",
+    "institution": "Cloud Institute",
+    "location": "Online",
+    "from": "2020",
+    "icon": "",
+    "to": ""
+  }
+]

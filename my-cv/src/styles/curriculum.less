@@ -1,12 +1,10 @@
 @import './variables.less';
 
 body {
-  height: 297mm;
-  width: 210mm;
 }
 .page {
-  height: 277mm;
-  width: 208mm;
+  max-width: 950px;
+  margin: 15px auto;
   font-family: 'Roboto', sans-serif;
   color: @text-color;
   background-color: @background-color;
@@ -30,6 +28,13 @@ h1 {
 }
 .section {
   margin-bottom: 10px;
+}
+.main-section {
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }
 .contact-info {
   display: flex;
@@ -86,7 +91,7 @@ a {
   height: 13px;
 }
 
-.container {
+.sub-section {
   display: flex;
   justify-content: space-between;
 

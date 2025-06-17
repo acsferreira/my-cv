@@ -8,9 +8,6 @@ export interface IUserState {
   github: string;
   linkedin: string;
   maritalStatus: string;
-  birthday: Date;
-}
-
-export interface UserAction {
-  type: string;
+  birthday: string;
+  summary: string;
 }

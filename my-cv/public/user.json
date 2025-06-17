@@ -1,0 +1,13 @@
+{
+  "name": "Jane Doe",
+  "profession": "Frontend Developer",
+  "location": "City, Country",
+  "nationality": "Nationality",
+  "email": "janedoe@email.com",
+  "phone": "+000 000 000 000",
+  "github": "https://github.com/janedoe",
+  "linkedin": "https://linkedin.com/in/janedoe",
+  "maritalStatus": "Single",
+  "birthday": "1990-01-01",
+  "summary": "Frontend Developer with a scientific mindset and strong expertise in React, JavaScript, and CSS. Experienced in building responsive, user-centered applications in Agile teams across Europe and Brazil. Skilled in writing clean, maintainable code with unit tests (Jest, React Testing Library) and E2E tests (Cypress). Former researcher with Python data analysis experience, known for collaboration, attention to detail, and a passion for intuitive digital experiences."
+}

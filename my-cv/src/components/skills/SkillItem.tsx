@@ -1,5 +1,5 @@
-import type { SkillItemProps } from '../types/skills';
-import ProgressBar from './ProgressBar';
+import type { SkillItemProps } from '../../types/skills';
+import ProgressBar from '../common/ProgressBar';
 
 const SkillItem = ({ imgSrc, title, name, level, icon }: SkillItemProps) => (
   <div className="skill-row">

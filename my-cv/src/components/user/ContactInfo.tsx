@@ -1,10 +1,10 @@
 import ContactItem from './ContactItem';
 import ContactCol from './ContactCol';
-import Section from './Section';
-import { icons } from '../utils/constants';
-import { useSelector } from 'react-redux';
-import type { ICommonState } from '../types/common';
-import { calculateAge } from '../utils/user';
+import Section from '../common/Section';
+import { icons } from '../../utils/constants';
+
+import { calculateAge } from '../../utils/user';
+import { useAppSelector } from '../../utils/hooks/redux';
 
 const ContactInfo: React.FC = () => {
   const {
@@ -16,7 +16,7 @@ const ContactInfo: React.FC = () => {
     maritalStatus,
     linkedin,
     github,
-  } = useSelector((state: ICommonState) => state.user);
+  } = useAppSelector(state => state.user);
 
   const user = {
     location,
@@ -31,7 +31,7 @@ const ContactInfo: React.FC = () => {
 
   const entries = Object.entries(user).map(([key, value]) => ({
     icon: icons[key] || icons.notFound,
-    content: key === 'birthday' ? calculateAge(value as Date) : value,
+    content: key === 'birthday' ? calculateAge(value) : value,
     key,
   }));
 
